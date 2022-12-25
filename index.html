@@ -2,61 +2,130 @@
 <html>
   <head>
     <title>Email Signature</title>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
-    <style></style>
+    <!-- <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+    </style> -->
+    <style>
+    .tdetail td{
+      padding:1.2px;
+	  padding-left:0;
+	  padding-right:0;
+    }
+    .tadress{
+      font-size:6.6pt!important;
+    }
+    </style>
   </head>
-  <body style="font-family: 'Lato', Segoe UI, sans-serif">
-    <!--[if lte mso 16]>
+  <body style="font-family: 'Lato', 'Segoe UI', sans-serif">
+    <!--[if mso]>
 <style type="text/css">
 body, table, td {font-family: Segoe UI, Helvetica, sans-serif !important;}
 img{
-  margin-bottom:2px!important;
+  
 }
+.tdetail td{
+      padding:0px;
+    }
+	.timg{
+	padding-bottom: 2pt;
+	}
 </style>
 <![endif]-->
-    <table style="width: 255px; height: 90px;border-spacing: 0px;" cellpadding="0" cellspacing="0" border="0">
-      <tbody style="font-family: 'Lato', Segoe UI, sans-serif">
-        <tr valign="bottom">
+    <table
+      style="width: 255px; height: 90px; border-spacing: 0px"
+      cellpadding="0"
+      cellspacing="0"
+      border="0"
+    >
+      <tbody style="font-family: 'Lato', 'Segoe UI', sans-serif">
+        <tr valign="center" style="font-family: 'Lato', 'Segoe UI', sans-serif">
           <td>
-            <h1 style="font-size: 9pt;color: #005CB9;font-weight: 800;margin-top: 5px;
-            margin-bottom: 0px;">%%DisplayName%%</h1>
-            <h2 style="font-size: 7.5pt;margin-top: 0px;margin-bottom: 4.5px;font-weight: 700;">%%Title%%</h2>
+            <h1
+              style="
+                font-size: 9pt;
+                color: #005cb9;
+                font-weight: 800;
+                margin-top: 5px;
+                margin-bottom: 0px;
+              "
+            >
+              %%DisplayName%%
+            </h1>
+            <h2
+              style="
+                font-size: 7.5pt;
+                margin-top: 0px;
+                margin-bottom: 4.5px;
+                font-weight: 700;
+              "
+            >
+              %%Title%%
+            </h2>
           </td>
-          <td style="text-align: right">
-            <img class="logo" src="https://mci-santeanimale.com/wp-content/uploads/2022/12/LogoSignature.png" style="height: 31.64px;width: 75px;margin-bottom: 0px;"
-            width="75" height="31.64">
+          <td class="timg" valign="bottom" style="text-align: right;vertical-align:bottom; ">
+            <img
+              class="logo"
+              src="https://mci-santeanimale.com/wp-content/uploads/2022/12/LogoSignature.png"
+              style="height: 31.64px; width: 75px;"
+              width="75"
+              height="31.64"
+            />
           </td>
         </tr>
         <tr>
-          <td class="separator" colspan="2" style="border-bottom: solid;border-width: 1.5px;border-bottom-left-radius: 50%;border-bottom-right-radius: 50%;width: 100%;color: #009844;
-          border-color:#009844;
-          margin-top: -3px;"></td>
+          <td
+            class="separator"
+            colspan="2"
+            style="
+              border-bottom: solid;
+              border-width: 1.5px;
+              border-bottom-left-radius: 50%;
+              border-bottom-right-radius: 50%;
+              width: 100%;
+              color: #009844;
+              border-color: #009844;
+              margin-top: -3px;
+            "
+          ></td>
         </tr>
-        <tr valign="bottom" style="height:42pt">
+        <tr valign="bottom" style="height: 42pt;vertical-align:bottom;">
           <td colspan="2">
-            <table cellspacing="0" border="0" style="font-family: 'Lato', Segoe UI, sans-serif;width:100%;">
+            <table class="tdetail" cellpadding="0" cellspacing="0" border="0"
+              style="font-family: 'Lato', 'Segoe UI', sans-serif; width: 100%;border-spacing: 0px;"
+            >
               <tbody style="font-size: 7pt; line-height: 8pt">
                 <tr style="font-size: 7pt; line-height: 8pt" height="8pt">
-                  <td><span style="font-weight: 800;color: #005CB9;">E-mail</span></td>
+                  <td>
+                    <span style="font-weight: 800; color: #005cb9">E-mail</span>
+                  </td>
                   <td colspan="3">%%Email%%</td>
                 </tr>
                 <tr style="font-size: 7pt; line-height: 8pt" height="8pt">
-                  <td><span style="font-weight: 800;color: #005CB9;">Website</span></td>
+                  <td>
+                    <span style="font-weight: 800; color: #005cb9"
+                      >Website</span
+                    >
+                  </td>
                   <td colspan="3">www.mci-santeanimale.com</td>
                 </tr>
                 <tr style="font-size: 7pt; line-height: 8pt" height="8pt">
-                  <td><span style="font-weight: 800;color: #005CB9;">Mobile</span></td>
+                  <td>
+                    <span style="font-weight: 800; color: #005cb9">Mobile</span>
+                  </td>
                   <td>%%MobileNumber%%</td>
-                  <td style="text-align: right;"><span style="font-weight: 800;color: #005CB9;">Phone</span></td>
-                  <td style="text-align: right;">+212 6 61 14 18 60</td>
+                  <td style="text-align: right">
+                    <span style="font-weight: 800; color: #005cb9">Phone</span>
+                  </td>
+                  <td style="text-align: right">+212 6 61 14 18 60</td>
                 </tr>
-                <tr style="font-size: 6.5pt; line-height: 7.5pt" height="7.5pt">
+                <tr class="tadress" style="font-size: 6.5pt; line-height: 7.5pt;" height="7.5pt">
                   <td colspan="4">
                     LOT. 157, Z.I. sud-ouest, B.P. 278, Mohammedia, 28810,
                     Morocco
